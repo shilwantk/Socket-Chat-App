@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		625735C82DC87F32000B1D78 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = 625735C72DC87F32000B1D78 /* SocketIO */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		625735A22DC87D0E000B1D78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				625735C82DC87F32000B1D78 /* SocketIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +130,7 @@
 			);
 			name = NetomiAssignment;
 			packageProductDependencies = (
+				625735C72DC87F32000B1D78 /* SocketIO */,
 			);
 			productName = NetomiAssignment;
 			productReference = 6257358B2DC87D0B000B1D78 /* NetomiAssignment.app */;
@@ -208,6 +214,9 @@
 			);
 			mainGroup = 625735822DC87D0B000B1D78;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				625735C62DC87F31000B1D78 /* XCRemoteSwiftPackageReference "socket" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6257358C2DC87D0B000B1D78 /* Products */;
 			projectDirPath = "";
@@ -571,6 +580,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		625735C62DC87F31000B1D78 /* XCRemoteSwiftPackageReference "socket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		625735C72DC87F32000B1D78 /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 625735C62DC87F31000B1D78 /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 625735832DC87D0B000B1D78 /* Project object */;
 }
