@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		625735A22DC87D0E000B1D78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 625735832DC87D0B000B1D78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6257358A2DC87D0B000B1D78;
+			remoteInfo = NetomiAssignment;
+		};
+		625735AC2DC87D0E000B1D78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 625735832DC87D0B000B1D78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6257358A2DC87D0B000B1D78;
+			remoteInfo = NetomiAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6257358B2DC87D0B000B1D78 /* NetomiAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetomiAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		625735A12DC87D0E000B1D78 /* NetomiAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetomiAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		625735AB2DC87D0E000B1D78 /* NetomiAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetomiAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		625735B32DC87D0E000B1D78 /* Exceptions for "NetomiAssignment" folder in "NetomiAssignment" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6257358A2DC87D0B000B1D78 /* NetomiAssignment */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6257358D2DC87D0B000B1D78 /* NetomiAssignment */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				625735B32DC87D0E000B1D78 /* Exceptions for "NetomiAssignment" folder in "NetomiAssignment" target */,
+			);
+			path = NetomiAssignment;
+			sourceTree = "<group>";
+		};
+		625735A42DC87D0E000B1D78 /* NetomiAssignmentTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NetomiAssignmentTests;
+			sourceTree = "<group>";
+		};
+		625735AE2DC87D0E000B1D78 /* NetomiAssignmentUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NetomiAssignmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		625735882DC87D0B000B1D78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6257359E2DC87D0E000B1D78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625735A82DC87D0E000B1D78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		625735822DC87D0B000B1D78 = {
+			isa = PBXGroup;
+			children = (
+				6257358D2DC87D0B000B1D78 /* NetomiAssignment */,
+				625735A42DC87D0E000B1D78 /* NetomiAssignmentTests */,
+				625735AE2DC87D0E000B1D78 /* NetomiAssignmentUITests */,
+				6257358C2DC87D0B000B1D78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6257358C2DC87D0B000B1D78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6257358B2DC87D0B000B1D78 /* NetomiAssignment.app */,
+				625735A12DC87D0E000B1D78 /* NetomiAssignmentTests.xctest */,
+				625735AB2DC87D0E000B1D78 /* NetomiAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6257358A2DC87D0B000B1D78 /* NetomiAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625735B42DC87D0E000B1D78 /* Build configuration list for PBXNativeTarget "NetomiAssignment" */;
+			buildPhases = (
+				625735872DC87D0B000B1D78 /* Sources */,
+				625735882DC87D0B000B1D78 /* Frameworks */,
+				625735892DC87D0B000B1D78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6257358D2DC87D0B000B1D78 /* NetomiAssignment */,
+			);
+			name = NetomiAssignment;
+			packageProductDependencies = (
+			);
+			productName = NetomiAssignment;
+			productReference = 6257358B2DC87D0B000B1D78 /* NetomiAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		625735A02DC87D0E000B1D78 /* NetomiAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625735B92DC87D0E000B1D78 /* Build configuration list for PBXNativeTarget "NetomiAssignmentTests" */;
+			buildPhases = (
+				6257359D2DC87D0E000B1D78 /* Sources */,
+				6257359E2DC87D0E000B1D78 /* Frameworks */,
+				6257359F2DC87D0E000B1D78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				625735A32DC87D0E000B1D78 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				625735A42DC87D0E000B1D78 /* NetomiAssignmentTests */,
+			);
+			name = NetomiAssignmentTests;
+			packageProductDependencies = (
+			);
+			productName = NetomiAssignmentTests;
+			productReference = 625735A12DC87D0E000B1D78 /* NetomiAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		625735AA2DC87D0E000B1D78 /* NetomiAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625735BC2DC87D0E000B1D78 /* Build configuration list for PBXNativeTarget "NetomiAssignmentUITests" */;
+			buildPhases = (
+				625735A72DC87D0E000B1D78 /* Sources */,
+				625735A82DC87D0E000B1D78 /* Frameworks */,
+				625735A92DC87D0E000B1D78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				625735AD2DC87D0E000B1D78 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				625735AE2DC87D0E000B1D78 /* NetomiAssignmentUITests */,
+			);
+			name = NetomiAssignmentUITests;
+			packageProductDependencies = (
+			);
+			productName = NetomiAssignmentUITests;
+			productReference = 625735AB2DC87D0E000B1D78 /* NetomiAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		625735832DC87D0B000B1D78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					6257358A2DC87D0B000B1D78 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					625735A02DC87D0E000B1D78 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 6257358A2DC87D0B000B1D78;
+					};
+					625735AA2DC87D0E000B1D78 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 6257358A2DC87D0B000B1D78;
+					};
+				};
+			};
+			buildConfigurationList = 625735862DC87D0B000B1D78 /* Build configuration list for PBXProject "NetomiAssignment" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 625735822DC87D0B000B1D78;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6257358C2DC87D0B000B1D78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6257358A2DC87D0B000B1D78 /* NetomiAssignment */,
+				625735A02DC87D0E000B1D78 /* NetomiAssignmentTests */,
+				625735AA2DC87D0E000B1D78 /* NetomiAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		625735892DC87D0B000B1D78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6257359F2DC87D0E000B1D78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625735A92DC87D0E000B1D78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		625735872DC87D0B000B1D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6257359D2DC87D0E000B1D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625735A72DC87D0E000B1D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		625735A32DC87D0E000B1D78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6257358A2DC87D0B000B1D78 /* NetomiAssignment */;
+			targetProxy = 625735A22DC87D0E000B1D78 /* PBXContainerItemProxy */;
+		};
+		625735AD2DC87D0E000B1D78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6257358A2DC87D0B000B1D78 /* NetomiAssignment */;
+			targetProxy = 625735AC2DC87D0E000B1D78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		625735B52DC87D0E000B1D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 627WA9GS4S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetomiAssignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.3a2f9403545a6bb2.NetomiAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		625735B62DC87D0E000B1D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 627WA9GS4S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetomiAssignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.3a2f9403545a6bb2.NetomiAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		625735B72DC87D0E000B1D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 627WA9GS4S;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		625735B82DC87D0E000B1D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 627WA9GS4S;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		625735BA2DC87D0E000B1D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 627WA9GS4S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.3a2f9403545a6bb2.NetomiAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetomiAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetomiAssignment";
+			};
+			name = Debug;
+		};
+		625735BB2DC87D0E000B1D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 627WA9GS4S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.3a2f9403545a6bb2.NetomiAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetomiAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetomiAssignment";
+			};
+			name = Release;
+		};
+		625735BD2DC87D0E000B1D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 627WA9GS4S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.3a2f9403545a6bb2.NetomiAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetomiAssignment;
+			};
+			name = Debug;
+		};
+		625735BE2DC87D0E000B1D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 627WA9GS4S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.3a2f9403545a6bb2.NetomiAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetomiAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		625735862DC87D0B000B1D78 /* Build configuration list for PBXProject "NetomiAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625735B72DC87D0E000B1D78 /* Debug */,
+				625735B82DC87D0E000B1D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625735B42DC87D0E000B1D78 /* Build configuration list for PBXNativeTarget "NetomiAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625735B52DC87D0E000B1D78 /* Debug */,
+				625735B62DC87D0E000B1D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625735B92DC87D0E000B1D78 /* Build configuration list for PBXNativeTarget "NetomiAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625735BA2DC87D0E000B1D78 /* Debug */,
+				625735BB2DC87D0E000B1D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625735BC2DC87D0E000B1D78 /* Build configuration list for PBXNativeTarget "NetomiAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625735BD2DC87D0E000B1D78 /* Debug */,
+				625735BE2DC87D0E000B1D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 625735832DC87D0B000B1D78 /* Project object */;
+}
